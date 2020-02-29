@@ -1,17 +1,17 @@
-Provides an executable for BicSO algorithm with was pubilshed by Xiangyu.
+Provides an executable for RecBic algorithm with was pubilshed by Xiangyu.
 
 Installation:
 Before installation,please make sure that your computer allready installed GCC version supporting c++ 11.
 Extract the package
-	% unzip BicSO.zip
-Move to the BicSO folder
-	% cd BicSO
+	% unzip RecBic.zip
+Move to the RecBic folder
+	% cd RecBic
 Make an executable programe
 	% make
 Then you can use it with following options.
 
 [Usage]\n\
-$ ./BicSO -i filename [argument list]\n\
+$ ./RecBic -i filename [argument list]\n\
 ===================================================================\n\
 [Input]\n\
 -i : input file must be one of two tab-delimited formats\n\
@@ -28,8 +28,6 @@ $ ./BicSO -i filename [argument list]\n\
      gene1        1        2        2\n\
      gene2       -1        2        0\n\
      -------------------------------------\n\
--m : switch the stategy mode\n\
-	 1: column-based; 2: row-based; 3: both row-based and column-based default: column-based\n\
 -z : set the max number of columns of biclusters may have\n\
 	 default: 40\n\
 -x : set the min number of rows of biclusters may have\n\
@@ -50,6 +48,5 @@ $ ./BicSO -i filename [argument list]\n\
      number of identical valid symbols in a column and the total number \n\
      of rows in the output\n\
      default: 0.9\n\
--s : expansion flag\n\
 ===================================================================\n";
 

@@ -1222,8 +1222,8 @@ bic_s3.insert(bic_s3.end(),subbic_s3.begin(),subbic_s3.end());}
 						bic_int=bic_s2[pmax_i];
 						vector<vector<double> >(0).swap(bic_s2);						
 						bic_int[4]=p_value;
-						//if(q==3)
-						if(test(rows,q))
+						if(q==3)
+						//if(test(rows,q))
 						{
 						temp_step.swap(bic_int);
     					vector<double>(0).swap(bic_int);
