@@ -13,7 +13,7 @@ int main(int argc, char* argv[])
 {
 	/* Start the timer */
 	uglyTime(NULL);
-	printf("\nBicGO %.1f: greedy biclustering (compiled %s %s)\n\n", VER, __DATE__, __TIME__);
+	printf("\nRecBic %.1f: greedy biclustering (compiled %s %s)\n\n", VER, __DATE__, __TIME__);
 	rows = cols = 0;
 
 	/* get the program options defined in get_options.c */
