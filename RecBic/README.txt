@@ -1,7 +1,7 @@
-Provides an executable for RecBic algorithm with was pubilshed by Xiangyu.
+Provides an executable for RecBic algorithm with was published by Xiangyu.
 
 Installation:
-Before installation,please make sure that your computer allready installed GCC version supporting c++ 11.
+Before installation, please make sure that your computer already installed GCC version supporting c++ 11.
 Extract the package
 	% unzip RecBic.zip
 Move to the RecBic folder
