@@ -39,7 +39,7 @@ $ ./RecBic -i filename [argument list]\n\
      to different value classes, see above\n\
 ===================================================================\n\
 [Output]\n\
--o : number of blocks to report, default: 1\n\
+-o : number of blocks to report, default: 100\n\
 -f : filtering overlapping blocks,\n\
      default: 1 (do not remove any blocks)\n\
 -k : minimum column width of the block,\n\
