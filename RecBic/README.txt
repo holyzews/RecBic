@@ -28,6 +28,8 @@ $ ./RecBic -i filename [argument list]\n\
      gene1        1        2        2\n\
      gene2       -1        2        0\n\
      -------------------------------------\n\
+-q : use quantile discretization for continuous data \n\
+     default: 0.06 (see details in Method section in paper)
 -z : set the max number of columns of biclusters may have\n\
 	 default: 40\n\
 -x : set the min number of rows of biclusters may have\n\
